@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     <div>
-        <input type="text" name="" id="todo-items">
-        <button>ADD ITEMS</button>
+        <input type="text" name="" id="todo-item" placeholder="Enter todo">
+        <button onclick="addTodo()">ADD ITEMS</button>
+        <button onclick="deleteAll()">DELETE ALL</button>
+
     </div>
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    
+
+    <script src="app.js"></script>
 </body>
 </html>
